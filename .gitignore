@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Modelli scaricati a runtime (grandi; il codice li riscarica da solo al primo avvio)
+*.task
+
+# DATI PERSONALI / RUNTIME - NON caricare (contengono dati di persone reali):
+# impronte facciali (dato biometrico)
+people_memory.json
+# fatti personali salvati dall'assistente
+mira_memory.json
+# registro presenze/eventi
+*.db
